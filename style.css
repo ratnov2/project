@@ -1,0 +1,41 @@
+
+body{
+  background: #9E9E9E;
+}
+
+.calc{
+  border: 1px solid black;
+  position: absolute;
+  width: 200px;
+  height: 250px;
+}
+.number{
+  position: relative;
+  border: 1px solid black;
+  margin: 8px;
+  display: flex;
+  height: 30px;
+}
+.calcDel{
+  border: 1px solid black;
+  margin: auto 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+.table{
+  margin: 8px;
+  width: 184px;
+  height: 100%;
+}
+td{
+  cursor: pointer;
+  border: 1px solid black;
+  height: 40px;
+  padding-top: 3px;
+  padding-left: 16px;
+}
+.calcInput{
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
